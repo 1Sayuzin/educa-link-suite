@@ -6,7 +6,7 @@ const Index = () => {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
-      <Seo title="Portal da Rede de Ensino" description="Escolha seu perfil para acessar: Pais/Responsáveis ou Professores" />
+      <Seo title="Portal da Rede de Ensino" description="Escolha seu perfil para acessar: Responsável ou Docente" />
       <div className="text-center space-y-6 px-4">
         <h1 className="text-4xl font-bold">Bem-vindo ao Portal</h1>
         <p className="text-lg text-muted-foreground">Selecione seu perfil para continuar</p>
