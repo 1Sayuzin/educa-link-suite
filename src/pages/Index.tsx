@@ -11,8 +11,8 @@ const Index = () => {
         <h1 className="text-4xl font-bold">Bem-vindo ao Portal</h1>
         <p className="text-lg text-muted-foreground">Selecione seu perfil para continuar</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="hero" size="lg" onClick={() => navigate("/login/parent")}>Sou Responsável/Pais</Button>
-          <Button variant="hero" size="lg" onClick={() => navigate("/login/teacher")}>Sou Professor/Profissional</Button>
+          <Button variant="hero" size="lg" onClick={() => navigate("/login/parent")}>Sou Responsável</Button>
+          <Button variant="hero" size="lg" onClick={() => navigate("/login/teacher")}>Sou Docente</Button>
         </div>
       </div>
     </div>
