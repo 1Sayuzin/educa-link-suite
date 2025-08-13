@@ -18,7 +18,7 @@ export default function ParentLogin() {
       <Seo title="Login - Pais/Responsáveis" description="Acesso para Pais/Responsáveis" />
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle>Login - Pais/Responsáveis</CardTitle>
+          <CardTitle>Login - Pais/Respovffnsáveis</CardTitle>
         </CardHeader>
         <CardContent>
           <form className="space-y-4" onSubmit={onSubmit}>
